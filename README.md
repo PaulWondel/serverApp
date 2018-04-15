@@ -10,7 +10,7 @@ Requirements
 
 Ubuntu16+ Install
 
-	- git pull into a /home/user/MyProject/ or another directory in which you wish it to be
+	- git pull into a /usr/local/javaserver/ (create the javaserver directory)
 	
 	- place the service script "JavaServerApp.service" in "/lib/systemd/system" (use mv or cp)
 	
