@@ -1,7 +1,7 @@
 #!/bin/sh
-SERVICE_NAME=runjavaserver
-PATH_TO_JAR=/usr/local/MyProject/MyJar.jar
-PID_PATH_NAME=/tmp/MyService-pid
+SERVICE_NAME=runserver
+PATH_TO_JAR=/usr/local/javaserver/JavaSQLApp.jar
+PID_PATH_NAME=/tmp/runserver-pid
 case $1 in
     start)
         echo "Starting $SERVICE_NAME ..."
