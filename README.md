@@ -5,6 +5,7 @@ Requirements
 
 	- Java enviroment on linux
 	- mysql connectors jdbc (mysql.jar or something)
+	- you must have sudo rights to install
 
 
 Ubuntu16+ Install
