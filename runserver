@@ -1,5 +1,5 @@
 #!/bin/sh
-SERVICE_NAME=MyService
+SERVICE_NAME=runjavaserver
 PATH_TO_JAR=/usr/local/MyProject/MyJar.jar
 PID_PATH_NAME=/tmp/MyService-pid
 case $1 in
