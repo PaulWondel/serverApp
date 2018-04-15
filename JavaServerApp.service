@@ -1,0 +1,12 @@
+[Unit]
+Description=JavaSQLApplicatie
+
+[Service]
+Restart=on-failure
+WorkingDirectory=/usr/local/javaserver/
+ExecStart=/usr/local/bin/myjavaserver-start.sh
+ExecReload=/usr/local/bin/myjavaserver-stop.sh -HUP $MAINPID
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target
