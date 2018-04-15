@@ -17,12 +17,16 @@ Ubuntu16+ Install
 	- place the scripts "myjavaserver-start.sh" and "myjavaserver-stop.sh" in "/usr/local/bin" (use mv or cp)
 	
 	- then enable the service script with the command <systemctl enable JavaServerApp>
+
 	
+Usage
+
 	- to start use <sudo service JavaServerApp start>	
 	
 	- to show the status of the service <systemctl status JavaServerApp>	
 	
 	- to stop the service <sudo service JavaServerApp stop>
+
 	
 Not sure if this works with other systems but this works on Ubuntu 16+
 
