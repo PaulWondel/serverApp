@@ -32,3 +32,8 @@ Not sure if this works with other systems but this works on Ubuntu 16+
 
 You must set your port to "8989" on client side to connect
 
+
+Other Commands:
+pkill -f 'java -jar JavaSQLApp.jar'
+
+
